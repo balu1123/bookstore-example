@@ -8,7 +8,7 @@ pipeline{
     stage("Git Checkout"){
       steps{
          script{
-            git branch: 'main', changelog: false, poll: false, url: 'https://github.com/balu1123/bookstore-example.git'
+            git branch: 'v24', changelog: false, poll: false, url: 'https://github.com/balu1123/bookstore-example.git'
          } 
       }  
     }
